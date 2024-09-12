@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-with open("READMEL.md", "r") as f:
+with open("README.md", "r") as f:
     page_description = f.read()
 
 with open("requirements.txt") as f:
@@ -15,7 +15,7 @@ setup(
     description= "modules for transforming images and its colors through a histogram reference", 
     long_description= page_description,
     long_description_content_type= "text/markdown",
-    url= "https://github.com/EngThiagoFerrari/image-processing-package.git", #inserir meu github
+    url= "https://github.com/EngThiagoFerrari/image-processing-package.git",
     packages= find_packages(),
     install_requires= requirements,
     python_requires= '>=3.10',
