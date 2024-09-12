@@ -15,7 +15,7 @@ setup(
     description= "modules for transforming images and its colors through a histogram reference", 
     long_description= page_description,
     long_description_content_type= "text/markdown",
-    url= " ", #inserir meu github
+    url= "https://github.com/EngThiagoFerrari/image-processing-package.git", #inserir meu github
     packages= find_packages(),
     install_requires= requirements,
     python_requires= '>=3.10',
