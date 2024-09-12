@@ -8,7 +8,7 @@ with open("requirements.txt") as f:
 
 
 setup(
-    name= "image_processing",
+    name= "tf-image-processing",
     version= "0.0.1",
     author= "Thiago Ferrari",
     author_email= "engthiagoferrari@gmail.com",
@@ -18,5 +18,5 @@ setup(
     url= "https://github.com/EngThiagoFerrari/image-processing-package.git",
     packages= find_packages(),
     install_requires= requirements,
-    python_requires= '>=3.10',
+    python_requires= '>=3.9.0',
 )

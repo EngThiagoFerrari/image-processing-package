@@ -1,4 +1,4 @@
-# Image Processing
+# TF Image Processing
 
 ## Description
 The package package_name is used to:  
@@ -15,18 +15,18 @@ The package package_name is used to:
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install package_name
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install tf_image_processing
 
 ```bash
-pip install image_processing
+pip install tf-image-processing
 ```
 
 ## Usage
 ### For Histogram Matching
 1. Import the modules to open, read, plot, and save the imagens you need to combine as well as the combination module:  
 ```python
-from image_processing.utils import io, plot
-from image_processing.processing import combination
+from tf_image_processing.utils import io, plot
+from tf_image_processing.processing import combination
 ```
 2. Get both images' paths:
 	- a base image which is going to be modified

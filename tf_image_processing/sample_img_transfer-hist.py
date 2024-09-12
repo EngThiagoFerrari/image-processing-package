@@ -1,5 +1,5 @@
-from image_processing.utils import io, plot
-from image_processing.processing import combination
+from tf_image_processing.utils import io, plot
+from tf_image_processing.processing import combination
 
 image_1_path = "./image-processing-package/image_processing/Sample/image_1.jpg"
 image_2_path= "./image-processing-package/image_processing/Sample/image_2.jpg"
